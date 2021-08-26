@@ -1,0 +1,49 @@
+#wrapContent {
+	height: 100vh;
+	width: 100%;
+	background: #ffffff url("workspace.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+.form-container {
+	min-width: 30%;
+}
+.user_card {
+	padding: 10% 8%;
+	background: rgba(220, 220, 220, 0.377);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 4px;
+}
+#form-head {
+	margin-top: 4vh;
+	margin-bottom: 3vh;
+	color: whitesmoke;
+	text-shadow: 0 0 10px rgba(125, 67, 152, 1);
+}
+.valid-imei {
+	box-shadow: 0 0 10px green, 0 0 15px green, 0 0 15px green;
+}
+#imei-inp input {
+	font-size: 18px;
+}
+#imei-inp .input-group-append {
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+.fa-mobile {
+	font-size: larger;
+}
+.fa-check {
+	color: green;
+}
+.fa-times {
+	color: red;
+}
+.focus-no-design:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
